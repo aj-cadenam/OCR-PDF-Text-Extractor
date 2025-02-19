@@ -1,0 +1,27 @@
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de dependencias
+poetry.lock
+
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos de salida
+output/
