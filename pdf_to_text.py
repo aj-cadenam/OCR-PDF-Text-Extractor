@@ -8,8 +8,8 @@ from PIL import Image, ImageOps
 
 # 🔹 Configuration
 OLLAMA_URL = "http://localhost:11434/api/chat"
-OLLAMA_MODEL = "llava"  # CHECK THIS with `ollama list`
-SYSTEM_PROMPT = "Extract the exact text from the image. Preserve spacing, punctuation, and line breaks."
+OLLAMA_MODEL = "llama3.2-vision"  # CHECK THIS with `ollama list`
+SYSTEM_PROMPT = "Extrae el texto de la imagen siendo lo mas fiel posible al original. no alucines ni inventes. Si no puedes leer algo, déjalo en blanco."
 TIMEOUT = 120
 MAX_RETRIES = 3
 PAUSE_BETWEEN_REQUESTS = 2  # To prevent API overload
